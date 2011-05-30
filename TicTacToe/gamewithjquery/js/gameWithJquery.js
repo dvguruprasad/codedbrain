@@ -225,6 +225,7 @@ function MoveColumnWiseFirst() {
 
     else this.MoveSnakeLeftOrRight();
 }
+
  
 function AreSnakeAndHumanInSameRow(snake) {
     if (Math.floor(snake.snakeLocationId / board.numberOfColumns) == Math.floor(human.humanLocationId / board.numberOfColumns)) return true;
