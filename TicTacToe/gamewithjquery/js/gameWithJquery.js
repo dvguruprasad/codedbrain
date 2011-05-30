@@ -238,7 +238,6 @@ function MoveMouseToId(id)
      MoveToSameLocationAsObject(document.getElementById(this.mouseHtmlId),document.getElementById(id));
 }
 
-
 function MoveSnakeToId(id)
 {
     if(this.IsForbiddenPosition(id)) return;
